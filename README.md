@@ -31,4 +31,33 @@ Retail companies need accurate sales forecasts to optimize:
 - **Jupyter Notebook** - Interactive development
 
 ## 📁 Project Structure
-"""
+sales-analysis-project/
+│
+├── data/
+│ ├── raw/ # Original datasets
+│ ├── processed/ # Cleaned datasets
+│ └── external/ # External data sources
+│
+├── notebooks/
+│ ├── 01_eda.ipynb # Exploratory Data Analysis
+│ ├── 02_preprocessing.ipynb
+│ ├── 03_modeling.ipynb
+│ └── 04_evaluation.ipynb
+│
+├── src/
+│ ├── data_preprocessing.py
+│ ├── feature_engineering.py
+│ ├── model_training.py
+│ └── visualization.py
+│
+├── models/
+│ ├── best_model.pkl # Saved trained model
+│ └── scaler.pkl # Feature scaler
+│
+├── reports/
+│ ├── figures/ # Generated visualizations
+│ └── business_report.pdf
+│
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
+└── LICENSE # MIT License
