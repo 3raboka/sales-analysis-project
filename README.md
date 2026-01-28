@@ -1,5 +1,4 @@
 
-readme_content = """
 # Sales Data Analysis & Prediction
 
 ## 📊 Project Overview
