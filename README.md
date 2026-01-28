@@ -1,5 +1,3 @@
-print("\n2️⃣ PROFESSIONAL README.md FILE")
-print("-" * 40)
 
 readme_content = """
 # Sales Data Analysis & Prediction
